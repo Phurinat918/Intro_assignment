@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+
+
+
+
+/*---------------------------Login index page-------------------------------------------*/
+/*---------------------------nav-----------------------------*/
+nav{
+    display: flex;
+}
+.nav_left{
+    width: 70%;
+    display: flex;
+}
+.nav_left_img{
+    align-content: center;
+}
+.nav_left img{
+    width: 100%;
+    height: 80px;
+}
+.nav_left_txt{
+    align-content: center;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.nav_head{
+    width: 30%;
+    justify-content: end;
+    display: flex;
+    min-height: 0vh;
+    margin: 3%;
+}
+.nav_head :hover{
+    background: none;
+    color: black;
+    box-shadow: 0 0 10px orange;
+}
+.nav_head a{
+    text-decoration: none;
+    padding: 1%;
+    align-content: center;
+    margin-left: 3%;
+    height: 40px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 3px solid rgb(254, 127, 0);
+    background: linear-gradient(rgb(255, 129, 11),rgb(234, 188, 82));
+}
+
+
+
+
+/*---------------------------head-----------------------------*/
+header{
+    width: 100%;
+    height: 20vh;
+    background: linear-gradient(rgb(255, 129, 11),rgb(234, 188, 82));
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+
+
+/*---------------------------section-----------------------------*/
+.section{
+    margin-top: 2%;
+    padding: 3%;
+    box-shadow: 0 0 10px orange;
+    border-radius: 10px;
+}
+
+.s_index1{
+    text-align: center;
+    margin-bottom: 1%;
+    color: rgb(0, 0, 0);
+}
+.s_index2 {
+    border-radius: 10px;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+}
+.s_index2_all{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(228, 228, 228);
+    height: 200px;
+    margin: 4%;
+    text-align: center;
+    align-content: center;
+}
+.s_index2 h2{
+    color: rgb(255, 138, 108);
+    font-size: 40px;
+}
+
+
+/*---------------------------Login login page-------------------------------------------*/
+.body_login{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+.login{
+    width: 50%;
+    padding: 3%;
+    margin: 5%;
+    background: linear-gradient(to bottom,rgb(255, 157, 0),rgb(248, 174, 38),rgb(255, 212, 131));
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.log_head{
+    text-align: center;
+    color: white;
+}
+
+.log_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.log_input input,select{
+    padding-left: 3%;
+    height: 40px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 0;
+}
+
+.log_input button,a{
+    height: 50px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+}
+
+.log_btc{
+    background-color: rgb(43, 206, 152);
+    color: white;
+}
+.log_btregis{
+    background-color: rgb(132, 125, 125);
+    color: white;
+}
+
+
+.regis_bt{
+    display: flex;
+    justify-content: space-between;
+}
+.regis_bt button{
+    width: 48%;
+}
+.regis_btcf{
+    background-color: rgb(43, 206, 152);
+    color: white;
+}
+.regis_btcc{
+    background-color: rgb(250, 59, 59);
+    color: white;
+}
+
+
+/*---------------------------all page-------------------------------------------*/
+.head_all{
+    background-color: antiquewhite;
+}
+.dachbord{
+
+}
+.dachbord_txt{
+
+}
+.dachbord_all{
+
+}
+.info{
+    
+}
+.navside_all{
+
+}
+.info_all{
+
+}
