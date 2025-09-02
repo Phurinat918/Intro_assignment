@@ -59,7 +59,7 @@ body{
     flex-direction: column;
     border-radius: 10px;
     width: 20%;
-    min-height: 40vh;
+    height: 60vh;
     box-shadow: 0 0 10px rgb(119, 119, 119);
 }
 .navside_all :hover{
@@ -94,7 +94,7 @@ input{
     border: 0;
     box-shadow: 0 0 5px gray;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     padding-left: 5px;
 }
 
@@ -103,7 +103,7 @@ input{
 .profile{
     border-radius: 10px;
     width: 1005;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     padding-bottom: 3%;
@@ -178,4 +178,40 @@ input{
     height: 40px;
     margin-bottom: 3%;
     
+}
+
+
+/*----------------------------------------Proposal_sub---------------------------------*/
+.proposal_sub{
+    height: auto;
+    width: 100%;
+}
+.proposal_sub h4{
+    margin-bottom: 1%;
+    border-left: 10px solid orange;
+    padding-left: 1%;
+}
+.proposal_sub_head{
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    margin-top: 3%;
+}
+.proposal_sub_section{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+.proposal_sub input,select,button{
+    height: 40px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    border-radius: 10px;
+}
+.proposal_sub_bt{
+    background-color: rgb(2, 216, 138);
+    border-radius: 10px;
+    border: 0;
+    color: white;
 }
