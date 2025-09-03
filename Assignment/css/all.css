@@ -120,6 +120,7 @@ input{
     width: 150px;
     height: 150px;
     margin-top: 2%;
+    border-radius: 50%;
 }
 .profile_section{
     display: flex;
@@ -214,4 +215,61 @@ input{
     border-radius: 10px;
     border: 0;
     color: white;
+}
+
+/*----------------------------------------Progress---------------------------------*/
+.progress{
+    width: 100%;
+    min-height: 0vh;
+    padding-top: 3%;
+}
+.progress h4{
+    border-left: 10px solid orange;
+    padding-left: 1%;
+    margin-left: 2%;
+}
+.progress h5{
+    padding-left: 4%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.progress_1{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(205, 203, 203);
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.progress_2{
+    width: 40%;
+    background-color: rgb(12, 205, 12);
+    height: 30px;
+}
+.progress_all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.progress_all_{
+    margin: 3%;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.progress_all_1{
+    display: flex;
+    justify-content: space-between;
+}
+.progress_all_2{
+    background-color: rgb(0, 192, 192);
+    margin-right: 5%;
+    border-radius: 5px;
+    padding: 2%;
+    color: white;
+}
+.progress textarea{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 2%;
 }
