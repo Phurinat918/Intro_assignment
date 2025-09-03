@@ -216,6 +216,90 @@ input{
     border: 0;
     color: white;
 }
+/*----------------------------------------proposal status---------------------------------*/
+.proposal_status{
+    width: 100%;
+    height: auto;
+}
+.proposal_status_head{
+    text-align: center;
+    margin: 3%;
+    font-size: 30px;
+}
+.proposal_status_section{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+.proposal_status_section textarea{
+    width: 100%;
+    min-height: 80px;
+}
+.proposal_status_section button{
+    width: 100%;
+    border: 0;
+    background-color: rgb(1, 116, 198);
+    color: white;
+}
+
+.proposal_status_section h3{
+    border-left: 5px solid orange;
+    padding-left: 2%;
+    margin: 1%;
+}
+.proposal_status_section_{
+    box-shadow: 0 0 10px gray;
+    padding: 2%;
+    border-radius: 2px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.proposal_status_section input[type="text"]{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 35px;
+    width: 70%;
+}
+.proposal_status_section input[type="date"]{
+    margin-top: 1%;
+    height: 35px;
+    width: 100%;
+}
+.proposal_status_section_1{
+    background-color: rgb(208, 208, 208);
+    text-align: center;
+    align-content: center;
+    height: 35px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.proposal_status_section_3{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    height: 120px;
+    border: 2px dashed gray;
+}
+.proposal_status_section_3 input[type="file"]{
+    display: none;
+}
+.proposal_status_4{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px gray;
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
 
 /*----------------------------------------Progress---------------------------------*/
 .progress{
@@ -256,6 +340,12 @@ input{
     padding: 3%;
     display: flex;
     flex-direction: column;
+}
+.progress_all_ button{
+    background-color: rgb(32, 198, 68);
+    border: 0;
+    color: white;
+    margin-top: 1%;
 }
 .progress_all_1{
     display: flex;
