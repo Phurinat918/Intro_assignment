@@ -61,6 +61,8 @@ body{
     width: 20%;
     height: 60vh;
     box-shadow: 0 0 10px rgb(119, 119, 119);
+    position: sticky;
+    top: 0;
 }
 .navside_all :hover{
         border-left: 5px solid orange;
