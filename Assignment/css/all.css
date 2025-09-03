@@ -363,3 +363,64 @@ input{
     min-height: 50px;
     margin-bottom: 2%;
 }
+
+
+/*----------------------------------------exam regis---------------------------------*/
+.exam_regis{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.exam_regis_head{
+    text-align: center;
+    font-size: 30px;
+    margin: 3%;
+}
+.exam_regis h3{
+    border-left: 10px solid orange;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding-left: 2%;
+}
+.exam_regis_section_1{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    box-shadow: 0 0 5px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.exam_regis_section_1 input{
+    height: 35px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.exam_regis_section_2{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    box-shadow: 0 0 5px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.exam_regis_section_2 input[type="file"]{
+    display: none;
+}
+.exam_regis_section_2 label{
+    text-align: center;
+    align-content: center;
+    border: 2px dashed gray;
+    height: 80px;
+}
+.exam_regis button{
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 0;
+    background-color: rgb(54, 206, 67);
+    color: white;
+}
