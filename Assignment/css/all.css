@@ -252,7 +252,7 @@ input{
 .proposal_status_section_{
     box-shadow: 0 0 10px gray;
     padding: 2%;
-    border-radius: 2px;
+    border-radius: 10px;
     margin-bottom: 3%;
     margin-top: 1%;
 }
@@ -293,6 +293,7 @@ input{
     flex-direction: column;
     box-shadow: 0 0 5px gray;
     padding: 2%;
+    border-radius: 10px;
 }
 
 
@@ -424,5 +425,94 @@ input{
     margin-right: 3%;
     border: 0;
     background-color: rgb(54, 206, 67);
+    color: white;
+}
+
+/*----------------------------------------results---------------------------------*/
+.results{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.results h3{
+    padding-left: 2%;
+    border-left: 10px solid orange;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+.results p{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15;
+}
+.results_head{
+    text-align: center;
+    margin: 3%;
+    font-size: 30px;
+}
+.results_section_1{
+    box-shadow: 0 0 5px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.results_section_1 input{
+    width: 80%;
+    height: 35px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.results_section_1_1{
+    display: flex;
+}
+
+.results_section_2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+.results_section_2_1{
+    text-align: center;
+    background-color: rgb(201, 201, 201);
+    height: 35px;
+    align-content: center;
+    margin-top: 1%;
+}
+.results_section_3{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+.results_section_3 label{
+    text-align: center;
+    align-content: center;
+    border: 2px dashed gray;
+    height: 80px;
+    margin-bottom: 1%;
+}
+.results_section_3 input{
+    display: none;
+}
+.results_section_3 button{
+    border: 0;
+    background-color: rgb(61, 191, 61);
     color: white;
 }
