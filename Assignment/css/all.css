@@ -635,3 +635,21 @@ input{
     background-color: blue;
     color: white;
 }
+/*----------------------------------------consultant2 button---------------------------------*/
+.consultant2_bt_cf{
+    background-color: rgb(44, 205, 92);
+    border: 0;
+    color: white;
+}
+.consultant2_bt_cc{
+    background-color: rgb(255, 6, 6);
+    border: 0;
+    color: white;
+}
+.consultant2_h3{
+    border-left: 10px solid orange;
+    margin-left: 3%;
+    padding-left: 2%;
+    margin-top: 3%;
+    
+}
