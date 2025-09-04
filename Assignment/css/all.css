@@ -578,6 +578,7 @@ input{
     width: 45%;
 }
 
+
 /*----------------------------------------consultant report---------------------------------*/
 .consultant1_report1{
     padding: 3%;
@@ -622,6 +623,13 @@ input{
 .report_1 img{
     width: 30%;
 }
+.report_1_img{
+    box-shadow: 0 0 5px gray;
+    padding: 3%;
+    margin: 2%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+}
 .report_1_2{
     text-align: end;
 }
@@ -634,6 +642,7 @@ input{
 .report_bt_cf{
     background-color: blue;
     color: white;
+    border: 0;
 }
 /*----------------------------------------consultant2 button---------------------------------*/
 .consultant2_bt_cf{
@@ -651,5 +660,5 @@ input{
     margin-left: 3%;
     padding-left: 2%;
     margin-top: 3%;
-    
+
 }
