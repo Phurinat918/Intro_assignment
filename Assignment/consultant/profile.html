@@ -38,21 +38,191 @@
 
             <div class="info">
                 <div class="navside_all">
-                    <a href="profile.html" class="navside_all_one">โปรไฟล์</a>
-                    <a href="proposal_sub.html">เสนอหัวข้อ</a>
-                    <a href="proposal_status.html">สถานะหัวข้อ</a>
-                    <a href="progress.html">ความก้าวหน้า</a>
-                    <a href="exam_regis.html">ลงทะเบียนสอบ</a>
-                    <a href="results.html">ผลการสอบ</a>
+                    <a href="profile.html" class="navside_all_one">รายชื่อนักศึกษา</a>
+                    <a href="consultant2.html">คำขอ</a>
                 </div>
 
 
                 <div class="info_all">
-                    
-                </div>
+                     <div id="consultant_home1" class="page active">
+                        <h3>รายชื่อนักศึกษาที่กำลังดูแล</h3>
 
+
+                        <div class="consultant_home_1">
+                            <div class="consultant_home_1_1">
+                                <div class="consultant_home_1_1_1">
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="โครงงานพิเศษ">
+                                    <h4>จัดทำโดย</h4>
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt="">
+                                    <input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt="">
+                                    <input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี">
+                                </div>
+                                <div class="consultant_home_1_1_2">
+                                    <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>วัตถุประสงค์:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ขอบเขตงาน:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                </div>
+                            </div>
+
+                            <div class="consultant_home_1_2"><button onclick="showpage('consultant_home2_report1')">แสดงความคิดเห็น</button><button onclick="showpage('consultant_home2_progress1')">ความก้าวหน้า</button></div>
+                        </div>
+
+                        <div class="consultant_home_1">
+                            <div class="consultant_home_1_1">
+                                <div class="consultant_home_1_1_1">
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="โครงงานพิเศษ">
+                                    <h4>จัดทำโดย</h4>
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt="">
+                                    <input type="text" readonly placeholder="นายจิรายุ ">
+                                    
+                                </div>
+                                <div class="consultant_home_1_1_2">
+                                    <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>วัตถุประสงค์:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ขอบเขตงาน:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                </div>
+                            </div>
+
+                            <div class="consultant_home_1_2"><button onclick="showpage('consultant_home2_report2')">แสดงความคิดเห็น</button><button onclick="showpage('consultant_home2_progress2')">ความก้าวหน้า</button></div>
+                        </div>
+                            
+                    </div>
+
+
+                    <div id="consultant_home2_report1" class="page">
+                        <div class="consultant1_report1">
+                            <div class="page_1_1 report_bt"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                            <div class="report_head"><h2>แสดงความคิดเห็น</h2></div>
+                            <div class="report_1">
+                                <div>
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="#">
+                                </div>
+                                <div class="report_1_2">
+                                    <h4>อนุมัติสอบหัวข้อโครงงาน</h4>
+                                    <button>ตกลง</button>
+                                    <p>เงื่อนไข: ต้องผ่านแก้ไขอย่างน้อย <strong>1 ครั้ง</strong></p>
+                                </div>
+                                <div class="report_1_img">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี">
+                                </div>
+                                <div class="report_1_img">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นางสาวชัชชดาภา โค้วสุขสกุล">
+                                </div>
+                            </div>
+
+                            <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อหัวเรื่อง</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>วัตถุประสงค์:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อวัตถุประสงค์</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ขอบเขตงาน:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อขอบเขตงาน</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ข้อเสนอแนะเพิ่มเติม</h4>
+                            <textarea name="" id=""></textarea>
+                            <button class="report_bt_cf">บันทึก</button>
+                        </div>
+                    </div>
+
+
+                    <div id="consultant_home2_progress1" class="page">
+                        
+                        <div class="page_1_1"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                    </div>
+
+
+
+                    <div id="consultant_home2_report2" class="page">
+                     <div class="consultant1_report1">
+                            <div class="page_1_1 report_bt"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                            <div class="report_head"><h2>แสดงความคิดเห็น</h2></div>
+                            <div class="report_1">
+                                <div>
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="#">
+                                </div>
+                                <div class="report_1_2">
+                                    <h4>อนุมัติสอบหัวข้อโครงงาน</h4>
+                                    <button>ตกลง</button>
+                                    <p>เงื่อนไข: ต้องผ่านแก้ไขอย่างน้อย <strong>1 ครั้ง</strong></p>
+                                </div>
+                                <div class="report_1_img">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นายจิรายุ">
+                                </div>
+                                
+                            </div>
+
+                            <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อหัวเรื่อง</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>วัตถุประสงค์:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อวัตถุประสงค์</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ขอบเขตงาน:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อขอบเขตงาน</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ข้อเสนอแนะเพิ่มเติม</h4>
+                            <textarea name="" id=""></textarea>
+                            <button class="report_bt_cf">บันทึก</button>
+                        </div>
+                    </div>
+                    <div id="consultant_home2_progress2" class="page">
+                        
+                        <div class="page_1_1"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                    </div>
+        
+                </div>
+                   
+                
 
             </div>
         </div>
+        <script>
+            function showpage(pageid){
+                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+                document.getElementById(pageid).classList.add('active');
+            }
+        </script>
 </body>
 </html>

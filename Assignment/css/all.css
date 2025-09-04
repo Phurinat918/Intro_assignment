@@ -516,3 +516,122 @@ input{
     background-color: rgb(61, 191, 61);
     color: white;
 }
+
+/*----------------------------------------consultant 1---------------------------------*/
+.page{
+    display: none;
+}
+.page.active{
+    display: block;
+}
+.consultant_home_1{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin: 3%;
+    margin-top: 1%;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+}
+#consultant_home1 h3{
+    border-left: 10px solid orange;
+    margin-left: 3%;
+    padding-left: 2%;
+    margin-top: 3%;
+}
+.consultant_home_1_1{
+    display: flex;
+    padding: 3%;
+    margin: 3%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+}
+.consultant_home_1_1 input{
+    height: 35px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.consultant_home_1_1_1 img{
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.consultant_home_1_1_1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 5%;
+}
+.consultant_home_1_1_2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.consultant_home_1_2{
+    display: flex;
+    justify-content: space-between;
+}
+.consultant_home_1_2 button{
+    width: 45%;
+}
+
+/*----------------------------------------consultant report---------------------------------*/
+.consultant1_report1{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.consultant1_report1 textarea{
+    height: 80px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    
+}
+.report_bt{
+    display: flex;
+    justify-content: end;
+    
+}
+.report_bt button{
+    text-align: center;
+    border: 0;
+    background-color: rgb(91, 136, 232);
+    color: white;
+    padding: 1%;
+}
+.consultant1_report1 input{
+    height: 35px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.report_bt{
+    text-align: end;
+}
+.report_head{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.report_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.report_1 img{
+    width: 30%;
+}
+.report_1_2{
+    text-align: end;
+}
+.report_1_2 button{
+    width: 200px;
+}
+.report_1_2 p{
+    font-size: 12px;
+}
+.report_bt_cf{
+    background-color: blue;
+    color: white;
+}
