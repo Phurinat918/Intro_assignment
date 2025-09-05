@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    font-size: 103%;
 }
 
 body{
@@ -795,16 +794,23 @@ input{
     border: 1px solid black;
 }
 .consultant_progress_4{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .consultant_progress_4_all{
+    width: 25%;
     display: flex;
     flex-direction: column;
     padding: 2%;
     box-shadow: 0 0 5px gray;
     margin: 2%;
     border-radius: 10px;
+}
+.consultant_progress_4_all button{
+    background-color: blue;
+    border: 0;
+    color: white;
 }
 .consultant_progress_4_all_head{
  display: flex;
@@ -826,12 +832,12 @@ input{
 .consultant_progress_4_download_1{
     text-decoration: none;
     padding: 3%;
-    background-color: gray;
+    background-color: rgb(165, 165, 165);
     color: white;
 
 }
 .consultant_progress_4_download_2{
     height: 98%;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(197, 197, 197);
 }
