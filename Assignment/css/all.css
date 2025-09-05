@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-size: 103%;
 }
 
 body{
@@ -220,7 +221,6 @@ input{
 }
 /*----------------------------------------proposal status---------------------------------*/
 .proposal_status{
-    width: 100%;
     height: auto;
 }
 .proposal_status_head{
@@ -267,7 +267,8 @@ input{
 .proposal_status_section input[type="date"]{
     margin-top: 1%;
     height: 35px;
-    width: 100%;
+    width: 98%;
+    margin-bottom: 2%;
 }
 .proposal_status_section_1{
     background-color: rgb(208, 208, 208);
@@ -306,8 +307,6 @@ input{
 
 /*----------------------------------------Progress---------------------------------*/
 .progress{
-    width: 100%;
-    min-height: 0vh;
     padding-top: 3%;
 }
 .progress h4{
@@ -321,11 +320,11 @@ input{
     margin-top: 1%;
 }
 .progress_1{
-    width: 90%;
     height: 30px;
     background-color: rgb(205, 203, 203);
     margin-top: 2%;
     margin-left: 3%;
+    margin-right: 3%;
 }
 .progress_2{
     width: 40%;
@@ -333,10 +332,11 @@ input{
     height: 30px;
 }
 .progress_all{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
 }
 .progress_all_{
+    width: 38%;
     margin: 3%;
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
@@ -362,7 +362,6 @@ input{
     color: white;
 }
 .progress textarea{
-    width: 100%;
     min-height: 50px;
     margin-bottom: 2%;
 }
