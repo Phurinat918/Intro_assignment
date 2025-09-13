@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: "Prompt",sans-serif;
 }
 
 body{
@@ -137,6 +138,7 @@ header{
     padding: 3%;
     box-shadow: 0 0 10px orange;
     border-radius: 10px;
+    margin-bottom: 3%;
 }
 
 .s_index1{

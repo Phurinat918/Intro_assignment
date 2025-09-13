@@ -17,19 +17,19 @@
                 <div class="dachbord_txt"><h2>📊 แดชบอร์ดโครงงานนักศึกษา</h2></div>
                 <div class="dachbord_all">                
                     <div class="dachbord_all_d">
-                        <p>โครงงานทั้งหมด</p><br>
+                        <p>โครงงานทั้งหมด</p>
                         <h2>156</h2>
                     </div>
                     <div class="dachbord_all_d">
-                        <p>กำลังดำเนินการ</p><br>
+                        <p>กำลังดำเนินการ</p>
                         <h2>89</h2>
                     </div>
                     <div class="dachbord_all_d">
-                        <p>รอสอบจบ</p><br>
+                        <p>รอสอบจบ</p>
                         <h2>23</h2>
                     </div>
                     <div class="dachbord_all_d">
-                        <p>สำเร็จแล้ว</p><br>
+                        <p>สำเร็จแล้ว</p>
                         <h2>44</h2>
                     </div>            
                 </div>
@@ -38,21 +38,517 @@
 
             <div class="info">
                 <div class="navside_all">
-                    <a href="profile.html" class="navside_all_one">โปรไฟล์</a>
-                    <a href="proposal_sub.html">เสนอหัวข้อ</a>
-                    <a href="proposal_status.html">สถานะหัวข้อ</a>
-                    <a href="progress.html">ความก้าวหน้า</a>
-                    <a href="exam_regis.html">ลงทะเบียนสอบ</a>
-                    <a href="results.html">ผลการสอบ</a>
+                    <a href="profile.html" class="navside_all_one">รายชื่อโครงงาน</a>
+                    <a href="2.html">จัดการสอบหัวข้อ</a>
+                    <a href="3.html">จัดการสอบจบ</a>
                 </div>
 
 
                 <div class="info_all">
-                    
+                    <div id="consultant_home1" class="page active">
+                        <h3>รายชื่อนักศึกษาที่กำลังดูแล</h3>
+
+
+                        <div class="consultant_home_1">
+                            <div class="consultant_home_1_1">
+                                <div class="consultant_home_1_1_1">
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="โครงงานพิเศษ">
+                                    <h4>จัดทำโดย</h4>
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt="">
+                                    <input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt="">
+                                    <input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี">
+                                </div>
+                                <div class="consultant_home_1_1_2">
+                                    <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>วัตถุประสงค์:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ขอบเขตงาน:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                </div>
+                            </div>
+
+                            <div class="consultant_home_1_2"><button onclick="showpage('consultant_home2_report1')">แสดงความคิดเห็น</button><button onclick="showpage('consultant_home2_progress1')">ความก้าวหน้า</button></div>
+                        </div>
+
+                        <div class="consultant_home_1">
+                            <div class="consultant_home_1_1">
+                                <div class="consultant_home_1_1_1">
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="โครงงานพิเศษ">
+                                    <h4>จัดทำโดย</h4>
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt="">
+                                    <input type="text" readonly placeholder="นายจิรายุ ">
+                                    
+                                </div>
+                                <div class="consultant_home_1_1_2">
+                                    <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <h4>วัตถุประสงค์:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <h4>ขอบเขตงาน:</h4>
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                    <input type="text" readonly placeholder="">
+                                </div>
+                            </div>
+
+                            <div class="consultant_home_1_2"><button onclick="showpage('consultant_home2_report2')">แสดงความคิดเห็น</button><button onclick="showpage('consultant_home2_progress2')">ความก้าวหน้า</button></div>
+                        </div>
+                            
+                    </div>
+
+
+                    <div id="consultant_home2_report1" class="page">
+                        <div class="consultant1_report1">
+                            <div class="page_1_1 report_bt"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                            <div class="report_head"><h2>แสดงความคิดเห็น</h2></div>
+                            <div class="report_1">
+                                <div>
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="#">
+                                </div>
+                                <div class="report_1_2">
+                                    <h4>อนุมัติสอบหัวข้อโครงงาน</h4>
+                                    <button>ตกลง</button>
+                                    <p>เงื่อนไข: ต้องผ่านแก้ไขอย่างน้อย <strong>1 ครั้ง</strong></p>
+                                </div>
+                                <div class="report_1_img">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี">
+                                </div>
+                                <div class="report_1_img">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นางสาวชัชชดาภา โค้วสุขสกุล">
+                                </div>
+                            </div>
+
+                            <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อหัวเรื่อง</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>วัตถุประสงค์:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อวัตถุประสงค์</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ขอบเขตงาน:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อขอบเขตงาน</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ข้อเสนอแนะเพิ่มเติม</h4>
+                            <textarea name="" id=""></textarea>
+                            <button class="report_bt_cf">บันทึก</button>
+                        </div>
+                    </div>
+
+
+                    <div id="consultant_home2_progress1" class="page">
+                        <div class="consultant1_home2_progress">
+                            <div class="page_1_1 report_bt"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                            <div class="consultant_progress_head"><h2>ตรวจสอบความก้าวหน้า</h2></div><br>
+                            <div class="consultant_progress_1">
+                                <div class="consultant_progress_1_left">
+                                    <div class="consultant_progress_1_left_top">
+                                        <h4>ชื่อโครงงาน (ภาษาไทย)</h4>
+                                        <input type="text" readonly placeholder="">
+                                    </div>
+                                    <div class="consultant_progress_1_left_bottom">
+                                        <div class="consultant_progress_1_left_bottom_img"><img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี"></div>
+                                        <div class="consultant_progress_1_left_bottom_img"><img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นายภูริณัฐ ยวนหลี"></div>
+                                    </div>
+                                </div>
+                                <div class="consultant_progress_1_right">
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder=""><br><br><br><br>
+                                    
+                                </div>
+                            </div>
+                            <div class="consultant_progress_2">
+                                <h4>ความก้าวหน้าโครงงาน</h4>
+                                <div class="consultant_progress_2_1">
+                                    <div class="consultant_progress_2_2"></div>
+                                </div>
+                                <h4>ความก้าวหน้าโดยรวม: 10%</h4>
+                            </div>
+                            <div class="consultant_progress_3">
+                                <div class="consultant_progress_3_head"><h3>สัปดาห์ที่ 1</h3><button>บันทึก</button></div>
+                                <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_3_download"><a href="#" download class="consultant_progress_3_download_1">Download</a><div class="consultant_progress_3_download_2"></div></div>
+                            </div>
+                            <div class="consultant_progress_4">
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 2</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 3</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 4</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 5</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 6</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 7</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 8</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 9</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 10</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+
+
+
+                    <div id="consultant_home2_report2" class="page">
+                     <div class="consultant1_report1">
+                            <div class="page_1_1 report_bt"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                            <div class="report_head"><h2>แสดงความคิดเห็น</h2></div>
+                            <div class="report_1">
+                                <div>
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder="#">
+                                </div>
+                                <div class="report_1_2">
+                                    <h4>อนุมัติสอบหัวข้อโครงงาน</h4>
+                                    <button>ตกลง</button>
+                                    <p>เงื่อนไข: ต้องผ่านแก้ไขอย่างน้อย <strong>1 ครั้ง</strong></p>
+                                </div>
+                                <div class="report_1_img">
+                                    <img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นายจิรายุ">
+                                </div>
+                                
+                            </div>
+
+                            <h4>ชื่อโครงงาน (ภาษาไทย):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ชื่อโครงงาน (ภาษาอังกฤษ):</h4>
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อหัวเรื่อง</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>วัตถุประสงค์:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อวัตถุประสงค์</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ขอบเขตงาน:</h4>
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <input type="text" readonly placeholder="#">
+                            <h4>ข้อคิดเห็นต่อขอบเขตงาน</h4>
+                            <textarea name="" id=""></textarea>
+                            <h4>ข้อเสนอแนะเพิ่มเติม</h4>
+                            <textarea name="" id=""></textarea>
+                            <button class="report_bt_cf">บันทึก</button>
+                        </div>
+                    </div>
+                    <div id="consultant_home2_progress2" class="page">
+                        <div class="consultant1_home2_progress">
+                            <div class="page_1_1 report_bt"><button onclick="showpage('consultant_home1')">ย้อนกลับ</button></div>
+                            <div class="consultant_progress_head"><h2>ตรวจสอบความก้าวหน้า</h2></div><br>
+                            <div class="consultant_progress_1">
+                                <div class="consultant_progress_1_left">
+                                    <div class="consultant_progress_1_left_top">
+                                        <h4>ชื่อโครงงาน (ภาษาไทย)</h4>
+                                        <input type="text" readonly placeholder="">
+                                    </div>
+                                    <div class="consultant_progress_1_left_bottom">
+                                        <div class="consultant_progress_1_left_bottom_img"><img src="../img/LOGO-KMUTNB--300x300.png" alt=""><input type="text" readonly placeholder="นายจิรายุ"></div>
+                                    </div>
+                                </div>
+                                <div class="consultant_progress_1_right">
+                                    <h4>ประเภทโครงงาน</h4>
+                                    <input type="text" readonly placeholder=""><br><br><br><br>
+                                    
+                                </div>
+                            </div>
+                            <div class="consultant_progress_2">
+                                <h4>ความก้าวหน้าโครงงาน</h4>
+                                <div class="consultant_progress_2_1">
+                                    <div class="consultant_progress_2_2"></div>
+                                </div>
+                                <h4>ความก้าวหน้าโดยรวม: 10%</h4>
+                            </div>
+                            <div class="consultant_progress_3">
+                                <div class="consultant_progress_3_head"><h3>สัปดาห์ที่ 1</h3><button>บันทึก</button></div>
+                                <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <input type="file">
+                            </div>
+                            <div class="consultant_progress_4">
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 2</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 3</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 4</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 5</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 6</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 7</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 8</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 9</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                                <div class="consultant_progress_4_all">
+                                    <div class="consultant_progress_4_all_head">
+                                        <h3>สัปดาห์ที่ 10</h3>
+                                        <div class="consultant_progress_4_all_head_right">รอดำเนินการ</div>
+                                    </div>
+                                    <p>รายละเอียดงานที่ทำ</p>
+                                <input type="text" readonly placeholder="">
+                                <p>ข้อคิดเห็นจากอาจารย์ที่ปรึกษา</p>
+                                <textarea name="" id=""></textarea>
+                                <p>ข้อคิดเห็นจากอาจารย์ประจำวิชา</p>
+                                <input type="text" readonly placeholder="">
+                                <div class="consultant_progress_4_download"><a href="#" download class="consultant_progress_4_download_1">Download</a><div class="consultant_progress_4_download_2"></div></div>
+                                <button>เลือก</button>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
                 </div>
 
 
             </div>
         </div>
+        <script>
+            function showpage(pageid){
+                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+                document.getElementById(pageid).classList.add('active');
+            }
+        </script>
 </body>
 </html>

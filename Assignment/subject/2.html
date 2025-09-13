@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+        <div>
+            <div class="head_all">
+                <h1>อาจารย์ประจำวิชา</h1>
+            </div>
+
+
+            <div class="dachbord">
+                <div class="dachbord_txt"><h2>📊 แดชบอร์ดโครงงานนักศึกษา</h2></div>
+                <div class="dachbord_all">                
+                    <div class="dachbord_all_d">
+                        <p>โครงงานทั้งหมด</p>
+                        <h2>156</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>กำลังดำเนินการ</p>
+                        <h2>89</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>รอสอบจบ</p>
+                        <h2>23</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>สำเร็จแล้ว</p>
+                        <h2>44</h2>
+                    </div>            
+                </div>
+            </div>
+        
+
+            <div class="info">
+                <div class="navside_all">
+                    <a href="profile.html">รายชื่อโครงงาน</a>
+                    <a href="2.html" class="navside_all_one">จัดการสอบหัวข้อ</a>
+                    <a href="3.html">จัดการสอบจบ</a>
+                </div>
+
+
+                <div class="info_all">
+                    <div id="subject_1" class="page active">
+                        <div class="subject_1">
+                            <div class="results_head"><h1>จัดการสอบหัวข้อ</h1></div>
+                            <h3>รายชื่อโครงงานที่ยื่นสอบหัวข้อ</h3>
+                            <div class="table">
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบรถยนต์"></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><button onclick="showpage('subject_2_1')">ส่งคำขอไปให้กรรมการ</button></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                            </div>
+
+                            <div class="table">
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบเครื่องบิน"></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><button onclick="showpage('subject_2_2')">ส่งคำขอไปให้กรรมการ</button></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                            </div>
+
+                            <div class="table">
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบบ้าน"></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><button onclick="showpage('subject_2_3')">ส่งคำขอไปให้กรรมการ</button></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                            </div>
+
+
+                            <div class="table">
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="เตียงนอนอัจฉริยะ"></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><button onclick="showpage('subject_2_4')">ส่งคำขอไปให้กรรมการ</button></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                            </div>
+
+
+                            <div class="table">
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="บ้านบ้าน"></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                                <div class="table_1">
+                                    <div class="table_1_1"><button onclick="showpage('subject_2_5')">ส่งคำขอไปให้กรรมการ</button></div><div class="table_1_2"><input type="text" readonly></div>
+                                </div>
+                            </div>
+                           
+                                    
+                            
+                        </div>
+                    </div>
+                    <div id="subject_2_1" class="page">
+                        <button onclick="showpage('subject_1')">1</button>
+                    </div>
+                    <div id="subject_2_2" class="page">
+                        <button onclick="showpage('subject_1')">2</button>
+                    </div>
+                    <div id="subject_2_3" class="page">
+                        <button onclick="showpage('subject_1')">3</button>
+                    </div>
+                    <div id="subject_2_4" class="page">
+                        <button onclick="showpage('subject_1')">4</button>
+                    </div>
+                    <div id="subject_2_5" class="page">
+                        <button onclick="showpage('subject_1')">5</button>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+        <script>
+            function showpage(pageid){
+                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+                document.getElementById(pageid).classList.add('active');
+            }
+        </script>
+</body>
+</html>

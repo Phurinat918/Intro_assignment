@@ -1,10 +1,12 @@
 *{
     margin: 0;
+    font-family: "Prompt", sans-serif;
 }
 
 body{
-    background: linear-gradient(to bottom,rgb(242, 206, 141),rgb(250, 184, 61),orange);
+    background: linear-gradient(to bottom,rgb(252, 181, 48),rgb(250, 184, 61),orange);
     min-height: 100vh;
+    filter: saturate(150%);
 }
 
 .head_all{
@@ -56,7 +58,7 @@ body{
 @media (max-width: 1024px){
     .info{
     display: flex;
-    font-size: 10px;
+    font-size: 12px;
 }
     
 }
@@ -728,9 +730,7 @@ input{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.consultant_progress_1_left_bottom_img{
 
-}
 .consultant_progress_1_left_bottom img{
     width: 100px;
     border-radius: 50%;
@@ -851,4 +851,33 @@ input{
     height: 98%;
     width: 100%;
     border: 1px solid rgb(197, 197, 197);
+}
+
+/*----------------------------------------subject 2---------------------------------*/
+.subject_1{
+    padding: 3%;
+}
+.table{
+    display: flex;
+    box-shadow: 0 0 10px gray;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.table input{
+    width: 90%;
+}
+.table_1_1{
+    height: 50px;
+    align-content: end;
+    margin-bottom: 2%;
+}
+.table_1_1 button{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(57, 57, 233);
+    color: white;
+    border: 0;
+    margin-bottom: 10%;
 }

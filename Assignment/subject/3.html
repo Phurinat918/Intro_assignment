@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+        <div>
+            <div class="head_all">
+                <h1>อาจารย์ประจำวิชา</h1>
+            </div>
+
+
+            <div class="dachbord">
+                <div class="dachbord_txt"><h2>📊 แดชบอร์ดโครงงานนักศึกษา</h2></div>
+                <div class="dachbord_all">                
+                    <div class="dachbord_all_d">
+                        <p>โครงงานทั้งหมด</p>
+                        <h2>156</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>กำลังดำเนินการ</p>
+                        <h2>89</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>รอสอบจบ</p>
+                        <h2>23</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>สำเร็จแล้ว</p>
+                        <h2>44</h2>
+                    </div>            
+                </div>
+            </div>
+        
+
+            <div class="info">
+                <div class="navside_all">
+                    <a href="profile.html">รายชื่อโครงงาน</a>
+                    <a href="2.html">จัดการสอบหัวข้อ</a>
+                    <a href="3.html" class="navside_all_one">จัดการสอบจบ</a>
+                </div>
+
+
+                <div class="info_all">
+                    <div id="subject_1" class="page active">
+                        <button onclick="showpage('subject_2')">2</button>
+                        <button onclick="showpage('subject_3')">3</button>
+                    </div>
+                    <div id="subject_2" class="page">
+                        <button onclick="showpage('subject_1')">1-2</button>
+                    </div>
+                    <div id="subject_3" class="page">
+                        <button onclick="showpage('subject_1')">1-3</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <script>
+            function showpage(pageid){
+                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+                document.getElementById(pageid).classList.add('active');
+            }
+        </script>
+</body>
+</html>
