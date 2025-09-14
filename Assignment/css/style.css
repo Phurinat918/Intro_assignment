@@ -229,7 +229,7 @@ header{
 }
 @media (max-width: 480px){
     header{
-        height: 13vh;
+    min-height: 13vh;
         font-size: 12px;
     }
     .nav_head{

@@ -97,6 +97,7 @@ body{
     padding-left: 3%;
     height: 50px;
     color: black;
+    
 }
 
 .navside_all_one{
@@ -1173,10 +1174,12 @@ input{
     box-shadow: 0 0 2px orange;
     margin: 3%;
     align-content: center;
-    padding-left: 3%;
+    padding-left: 0%;
     height: 50px;
     color: black;
     width: 23%;
+    text-align: center;
+    justify-content: center;
 }
 
 .navside_all_one{
