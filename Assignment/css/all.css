@@ -91,7 +91,7 @@ body{
 .navside_all a{
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 0 0 2px orange;
+    box-shadow: 0 0 4px orange;
     margin: 3%;
     align-content: center;
     padding-left: 3%;
@@ -309,9 +309,11 @@ input{
 .proposal_status_section_2_left{
     width: 15%;
     align-content: center;
+    
 }
 .proposal_status_section_2_right{
     width: 85%;
+    padding-left: 2%;
 }
 
 .proposal_status_section_3{
@@ -478,13 +480,7 @@ input{
     margin-left: 3%;
     margin-bottom: 1%;
 }
-.results p{
-    text-align: center;
-    margin-top: 3%;
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 15;
-}
+
 .results_head{
     text-align: center;
     margin: 3%;
