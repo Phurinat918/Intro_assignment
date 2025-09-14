@@ -23,47 +23,19 @@ nav{
 .nav_left{
     width: 70%;
     display: flex;
+    align-items: center;
 }
 .nav_left_img{
     align-content: center;
+    margin-right: 2%;
 }
 .nav_left img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
-@media (max-width: 1024px){
-    .nav_left img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-}
-@media (max-width: 767px){
-    .nav_left img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}}
-.nav_left_txt{
-    align-content: center;
-    padding-left: 5%;
-    font-size: 20px;
-}
-@media (max-width: 1024px){
-    .nav_left_txt{
-    align-content: center;
-    padding-left: 5%;
-    font-size: 18px;
-}
-}
-@media (max-width: 767px){
-    .nav_left_txt{
-    align-content: center;
-    padding-left: 5%;
-    font-size: 12px;
-}
-}
+
+
 .nav_head{
     width: 30%;
     justify-content: end;
@@ -90,16 +62,7 @@ nav{
     border: 3px solid rgb(254, 127, 0);
     background: linear-gradient(rgb(255, 129, 11),rgb(234, 188, 82));
 }
-@media (max-width: 1024px){
-    .nav_head a{
-        font-size: 15px;
-    }
-}
-@media (max-width: 767px){
-    .nav_head a{
-        font-size: 13px;
-    }
-}
+
 
 
 
@@ -118,18 +81,6 @@ header{
     font-size: 100%;
 }
 
-@media (max-width: 1024px){
-    header{
-        height: vh;
-        font-size: 15px;
-    }
-}
-@media (max-width: 600px){
-    header{
-        height: 15vh;
-        font-size: 12px;
-    }
-}
 
 
 /*---------------------------section-----------------------------*/
@@ -184,16 +135,7 @@ header{
     flex-direction: column;
     border-radius: 20px;
 }
-@media (max-width: 1024px){
-    .login{
-        width: 80%;
-    }
-}
-@media (max-width: 767px){
-    .login{
-        width: 90%;
-    }
-}
+
 
 .log_head{
     text-align: center;
@@ -253,3 +195,68 @@ header{
     color: white;
 }
 
+
+
+@media (max-width: 1024px){
+header{
+        height: 20vh;
+        font-size: 15px;
+    }
+.login{
+    width: 70%;
+}
+.nav_left{
+    width: 60%;
+    font-size: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+}
+@media (max-width: 768px){
+header{
+        height: 15vh;
+        font-size: 12px;
+    }
+.login{
+    width: 80%;
+}
+.nav_left{
+    width: 60%;
+    font-size: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+}
+@media (max-width: 480px){
+    header{
+        height: 13vh;
+        font-size: 12px;
+    }
+    .nav_head{
+    width: 40%;
+    justify-content: end;
+    min-height: 0vh;
+    margin: 3%;
+}
+.nav_head a{
+    font-size: 13px;
+}
+.nav_left{
+    width: 60%;
+    font-size: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.nav_left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav_left_img{
+    align-content: center;
+    margin-right: 2%;
+}
+.login{
+    width: 90%;
+}
+}
