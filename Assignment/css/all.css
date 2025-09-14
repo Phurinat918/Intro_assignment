@@ -601,13 +601,14 @@ input{
     margin-top: 1%;
 }
 .consultant_home_1_1_1 img{
-    margin-left: 13%;
     width: 80px;
     border-radius: 50%;
     margin-top: 10%;
     margin-bottom: 5%;
 }
 .consultant_home_1_1_1{
+    align-items: center;
+    justify-items: center;
     text-align: center;
     display: flex;
     flex-direction: column;
