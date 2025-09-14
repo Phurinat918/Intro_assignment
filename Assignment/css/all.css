@@ -1224,10 +1224,10 @@ input{
     display: grid; 
 }
 .results p{
-    font-size: 12px;
+    font-size: 11px;
 }
 .proposal_status p{
-    font-size: 12px;
+    font-size: 11px;
 }
 .progress_all_{
     margin: 2%; 
