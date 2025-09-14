@@ -474,6 +474,9 @@ input{
     width: 100%;
     height: auto;
 }
+.results p{
+    font-size: 100%;
+}
 .results h3{
     padding-left: 2%;
     border-left: 10px solid orange;
