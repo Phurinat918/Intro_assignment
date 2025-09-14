@@ -1101,7 +1101,7 @@ input{
     position: relative;
     top: 0;
     margin-bottom: 3%;
-    height: 15vh;
+    height: 19vh;
 }
 .navside_all_2{
     background-color: white;
@@ -1116,7 +1116,7 @@ input{
     position: relative;
     top: 0;
     margin-bottom: 3%;
-    height: 7vh;
+    height: 10vh;
 }
 
 .navside_all :hover{
