@@ -126,7 +126,7 @@ input{
 /*----------------------------------------profile---------------------------------*/
 .profile{
     border-radius: 10px;
-    width: 1005;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -168,6 +168,8 @@ input{
 .profile_section_2_1{
     width: 50%;
     padding-right: 3%;
+    display: flex;
+    flex-direction: column;
 }
 .profile_section_2_2{
     width: 50%;
@@ -903,6 +905,7 @@ input{
 }
 .table{
     display: flex;
+    flex-direction: column;
     box-shadow: 0 0 10px gray;
     padding: 2%;
     border-radius: 10px;
@@ -916,20 +919,100 @@ input{
     height: 50px;
     align-content: end;
     margin-bottom: 2%;
+    height: 20px;
 }
-.table_1_1 button{
-    width: 90%;
-    height: 70%;
+.table_section{
+    display: flex;
+}
+.table_1_bt{
+    text-align: end;
+    height: 29px;
+    align-content: center;
+}
+.table_1_bt button{
+    width: 150px;
+    font-size: 10px;
+    height: 25px;
+    margin-right: 3%;
+    margin-bottom: 5%;
     background-color: rgb(57, 57, 233);
     color: white;
     border: 0;
-    margin-bottom: 10%;
+
 }
 /*----------------------------------------subject 2-sent--------------------------------*/
 .subject_2{
     padding: 3%;
     display: flex;
     flex-direction: column;
+    
+}
+.subject_2 h3{
+    border-left: 5px solid orange;
+    padding-left: 2%;
+    margin-bottom: 1%;
+}
+.subject_2 input[type="text"]{
+    height: 35px;
+    margin-bottom: 0.5%;
+}
+
+.subject_2 input[type="date"]{
+    height: 35px;
+    margin-bottom: 2%;
+}
+
+.subject_2_all_d_1{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+.subject_2_all_bt{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.subject_2_all_bt button{
+    width: 40%;
+    
+}
+.subject_2_all_bt_l{
+    background-color: rgb(47, 10, 195);
+    color: white;
+    border: 0;
+}
+.subject_2_all_bt_r{
+    background-color: rgb(99, 99, 99);
+    color: white;
+    border: 0;
+}
+.subject_2_all_under_bt{
+    text-align: end;
+    font-size: 9px;
+    padding-right: 15%;
+}
+.subject_2_all_d_2{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+.subject_2_all_d_1 textarea{
+    height: 90px;
+}
+.subject_2_all_d_2 textarea{
+    height: 90px;
+    margin-bottom: 3%;
+}
+.subject_2_all_d_2 input[type="radio"]{
+    box-shadow: 0 0 0;
 }
 
 
@@ -1204,7 +1287,7 @@ input{
     font-size: 16px;
     font-weight: 500;
     padding-left: 5px;
-    width: auto;
+    height: 30px;
 }
 .dachbord_all{
     display: flex;
