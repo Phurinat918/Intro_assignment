@@ -1048,6 +1048,9 @@ input{
 *{
     font-size: 100%;
 }
+.head_all h1{
+    font-size: 50px;
+}
 .info{
     margin: 3%;
 }
@@ -1119,6 +1122,10 @@ input{
 *{
     font-size: 100%;
 }
+.head_all h1{
+    font-size: 45px;
+}
+
 h4{
     font-size: 12px;
 }
@@ -1248,6 +1255,9 @@ input{
 }
 .head_all{
     height: 10vh;
+}
+.head_all h1{
+    font-size: 30px;
 }
 .info{
     margin: 3%;
