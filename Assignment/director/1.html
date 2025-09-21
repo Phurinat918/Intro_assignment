@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div>
+            <div class="head_all">
+                <h1>กรรมการ</h1>
+            </div>
+
+
+            <div class="dachbord">
+                <div class="dachbord_txt"><h2>📊 แดชบอร์ดโครงงานนักศึกษา</h2></div>
+                <div class="dachbord_all">                
+                    <div class="dachbord_all_d">
+                        <p>โครงงานทั้งหมด</p>
+                        <h2>156</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>กำลังดำเนินการ</p>
+                        <h2>89</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>รอสอบจบ</p>
+                        <h2>23</h2>
+                    </div>
+                    <div class="dachbord_all_d">
+                        <p>สำเร็จแล้ว</p>
+                        <h2>44</h2>
+                    </div>            
+                </div>
+            </div>
+        
+
+            <div class="info">
+                <div class="navside_all">
+                    <a href="1.html" class="navside_all_one">โปรไฟล์</a>
+                    <a href="2.html">เสนอหัวข้อ</a>
+                    <a href="3.html">สถานะหัวข้อ</a>
+                </div>
+
+
+                <div class="info_all">
+                    <div id="subject_1" class="page active">
+                        <div class="subject_1">
+                            <div class="results_head"><h2>จัดการสอบหัวข้อ</h2></div>
+                            <h3>รายชื่อโครงงานที่ยื่นสอบหัวข้อ</h3>
+                            <div class="table">
+                                <div class="table_1_bt">
+                                    <button onclick="showpage('director_1_1')">กำหนดการสอบหัวข้อ</button>
+                                    <button onclick="showpage('director_2_1')">สรุปผลสอบหัวข้อ</button>
+                                </div>
+                                <div class="table_section">
+                                    <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบเครื่องบิน"></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table">
+                                <div class="table_1_bt">
+                                    <button onclick="showpage('director_1_2')">กำหนดการสอบหัวข้อ</button>
+                                    <button onclick="showpage('director_2_2')">สรุปผลสอบหัวข้อ</button>
+                                </div>
+                                <div class="table_section">
+                                    <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบเครื่องบิน"></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="table">
+                                <div class="table_1_bt">
+                                    <button onclick="showpage('director_1_3')">กำหนดการสอบหัวข้อ</button>
+                                    <button onclick="showpage('director_2_3')">สรุปผลสอบหัวข้อ</button>
+                                </div>
+                                <div class="table_section">
+                                    <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบเครื่องบิน"></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="table">
+                                <div class="table_1_bt">
+                                    <button onclick="showpage('director_1_4')">กำหนดการสอบหัวข้อ</button>
+                                    <button onclick="showpage('director_2_4')">สรุปผลสอบหัวข้อ</button>
+                                </div>
+                                <div class="table_section">
+                                    <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบเครื่องบิน"></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="table">
+                                <div class="table_1_bt">
+                                    <button onclick="showpage('director_1_5')">กำหนดการสอบหัวข้อ</button>
+                                    <button onclick="showpage('director_2_5')">สรุปผลสอบหัวข้อ</button>
+                                </div>
+                                <div class="table_section">
+                                    <div class="table_1">
+                                    <div class="table_1_1"><h4>โครงงาน</h4></div><div class="table_1_2"><input type="text" readonly placeholder="ระบบเครื่องบิน"></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>วันที่เลือก</h4></div><div class="table_1_2"><input type="date" readonly ></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"><h4>จัดทำโดย</h4></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                    <div class="table_1">
+                                        <div class="table_1_1"></div><div class="table_1_2"><input type="text" readonly></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- หน้ากำหนดการสอบหัวข้อ -->
+                    <div id="director_1_1" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <p>วันที่</p>
+                                <input type="date" readonly>
+                                <p>เวลาสอบ</p>
+                                <input type="time" readonly>
+                                <p>สถานที่สอบ</p>
+                                <input type="text" readonly>
+                                <p>หมายเหตุ</p>
+                                <textarea name="" id="" readonly></textarea>
+                                <div class="director_ok">
+                                    <p>อนุมัติคำขอสอบหัวข้อหรือไม่</p>
+                                    <input type="checkbox"><p style="color: green;">อนุมัติ</p>
+                                    <input type="checkbox"><p style="color: rgb(154, 15, 0);">ไม่อนุมัติ</p>
+                                </div>
+                                <button style="background-color: rgb(63, 164, 103); color: white; border: 0" >ยืนยันคำตอบ</button>
+                                <h4>สาเหตุ</h4>
+                                <textarea name="" id=""></textarea>
+                                <h4>เปลี่ยนกำหนดการสอบ</h4>
+                                <p>กำหนดวันสอบ</p>
+                                <input type="date">
+                                <p>กำหนดเวลาสอบ</p>
+                                <input type="time">
+                                <p>สถานที่สอบ</p>
+                                <input type="text">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div id="director_1_2" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <p>วันที่</p>
+                                <input type="date" readonly>
+                                <p>เวลาสอบ</p>
+                                <input type="time" readonly>
+                                <p>สถานที่สอบ</p>
+                                <input type="text" readonly>
+                                <p>หมายเหตุ</p>
+                                <textarea name="" id="" readonly></textarea>
+                                <div class="director_ok">
+                                    <p>อนุมัติคำขอสอบหัวข้อหรือไม่</p>
+                                    <input type="checkbox"><p style="color: green;">อนุมัติ</p>
+                                    <input type="checkbox"><p style="color: rgb(154, 15, 0);">ไม่อนุมัติ</p>
+                                </div>
+                                <button style="background-color: rgb(63, 164, 103); color: white; border: 0" >ยืนยันคำตอบ</button>
+                                <h4>สาเหตุ</h4>
+                                <textarea name="" id=""></textarea>
+                                <h4>เปลี่ยนกำหนดการสอบ</h4>
+                                <p>กำหนดวันสอบ</p>
+                                <input type="date">
+                                <p>กำหนดเวลาสอบ</p>
+                                <input type="time">
+                                <p>สถานที่สอบ</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="director_1_3" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <p>วันที่</p>
+                                <input type="date" readonly>
+                                <p>เวลาสอบ</p>
+                                <input type="time" readonly>
+                                <p>สถานที่สอบ</p>
+                                <input type="text" readonly>
+                                <p>หมายเหตุ</p>
+                                <textarea name="" id="" readonly></textarea>
+                                <div class="director_ok">
+                                    <p>อนุมัติคำขอสอบหัวข้อหรือไม่</p>
+                                    <input type="checkbox"><p style="color: green;">อนุมัติ</p>
+                                    <input type="checkbox"><p style="color: rgb(154, 15, 0);">ไม่อนุมัติ</p>
+                                </div>
+                                <button style="background-color: rgb(63, 164, 103); color: white; border: 0" >ยืนยันคำตอบ</button>
+                                <h4>สาเหตุ</h4>
+                                <textarea name="" id=""></textarea>
+                                <h4>เปลี่ยนกำหนดการสอบ</h4>
+                                <p>กำหนดวันสอบ</p>
+                                <input type="date">
+                                <p>กำหนดเวลาสอบ</p>
+                                <input type="time">
+                                <p>สถานที่สอบ</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="director_1_4" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <p>วันที่</p>
+                                <input type="date" readonly>
+                                <p>เวลาสอบ</p>
+                                <input type="time" readonly>
+                                <p>สถานที่สอบ</p>
+                                <input type="text" readonly>
+                                <p>หมายเหตุ</p>
+                                <textarea name="" id="" readonly></textarea>
+                                <div class="director_ok">
+                                    <p>อนุมัติคำขอสอบหัวข้อหรือไม่</p>
+                                    <input type="checkbox"><p style="color: green;">อนุมัติ</p>
+                                    <input type="checkbox"><p style="color: rgb(154, 15, 0);">ไม่อนุมัติ</p>
+                                </div>
+                                <button style="background-color: rgb(63, 164, 103); color: white; border: 0" >ยืนยันคำตอบ</button>
+                                <h4>สาเหตุ</h4>
+                                <textarea name="" id=""></textarea>
+                                <h4>เปลี่ยนกำหนดการสอบ</h4>
+                                <p>กำหนดวันสอบ</p>
+                                <input type="date">
+                                <p>กำหนดเวลาสอบ</p>
+                                <input type="time">
+                                <p>สถานที่สอบ</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="director_1_5" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <p>วันที่</p>
+                                <input type="date" readonly>
+                                <p>เวลาสอบ</p>
+                                <input type="time" readonly>
+                                <p>สถานที่สอบ</p>
+                                <input type="text" readonly>
+                                <p>หมายเหตุ</p>
+                                <textarea name="" id="" readonly></textarea>
+                                <div class="director_ok">
+                                    <p>อนุมัติคำขอสอบหัวข้อหรือไม่</p>
+                                    <input type="checkbox"><p style="color: green;">อนุมัติ</p>
+                                    <input type="checkbox"><p style="color: rgb(154, 15, 0);">ไม่อนุมัติ</p>
+                                </div>
+                                <button style="background-color: rgb(63, 164, 103); color: white; border: 0" >ยืนยันคำตอบ</button>
+                                <h4>สาเหตุ</h4>
+                                <textarea name="" id=""></textarea>
+                                <h4>เปลี่ยนกำหนดการสอบ</h4>
+                                <p>กำหนดวันสอบ</p>
+                                <input type="date">
+                                <p>กำหนดเวลาสอบ</p>
+                                <input type="time">
+                                <p>สถานที่สอบ</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- หน้าสรุปสอบหัวข้อ -->
+                    
+                    <div id="director_2_1" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <h4>โครงงาน</h4>
+                                <input type="text" readonly>
+                                <h4>วันสอบที่เลือกไว้</h4>
+                                <input type="date" readonly>
+                                <h4>จัดทำโดย</h4>
+                                <input type="text" placeholder="นางสาวชัชชดาภา โค้วสุขสกุล" readonly> 
+                                <input type="text" placeholder="นายภูริณัฐ ยวนหลี" readonly>
+                                <h4>กำหนดผลการสอบ</h4>
+                                <select name="" id="">
+                                    <option value="">ผ่าน</option>
+                                    <option value="">ผ่านแบบแก้ไข</option>
+                                    <option value="">ไม่ผ่าน</option>
+                                </select>
+                                <h4>ข้อเสนอแนะจากกรรมการ</h4>
+                                <textarea name="" id=""></textarea>
+                                <button style="background-color: rgb(68, 176, 113); color: white; border: 0;">ยืนยันผลสอบ</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="director_2_2" class="page">
+                       <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <h4>โครงงาน</h4>
+                                <input type="text" readonly>
+                                <h4>วันสอบที่เลือกไว้</h4>
+                                <input type="date" readonly>
+                                <h4>จัดทำโดย</h4>
+                                <input type="text" placeholder="นางสาวชัชชดาภา โค้วสุขสกุล" readonly> 
+                                <input type="text" placeholder="นายภูริณัฐ ยวนหลี" readonly>
+                                <h4>กำหนดผลการสอบ</h4>
+                                <select name="" id="">
+                                    <option value="">ผ่าน</option>
+                                    <option value="">ผ่านแบบแก้ไข</option>
+                                    <option value="">ไม่ผ่าน</option>
+                                </select>
+                                <h4>ข้อเสนอแนะจากกรรมการ</h4>
+                                <textarea name="" id=""></textarea>
+                                <button style="background-color: rgb(68, 176, 113); color: white; border: 0;">ยืนยันผลสอบ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="director_2_3" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <h4>โครงงาน</h4>
+                                <input type="text" readonly>
+                                <h4>วันสอบที่เลือกไว้</h4>
+                                <input type="date" readonly>
+                                <h4>จัดทำโดย</h4>
+                                <input type="text" placeholder="นางสาวชัชชดาภา โค้วสุขสกุล" readonly> 
+                                <input type="text" placeholder="นายภูริณัฐ ยวนหลี" readonly>
+                                <h4>กำหนดผลการสอบ</h4>
+                                <select name="" id="">
+                                    <option value="">ผ่าน</option>
+                                    <option value="">ผ่านแบบแก้ไข</option>
+                                    <option value="">ไม่ผ่าน</option>
+                                </select>
+                                <h4>ข้อเสนอแนะจากกรรมการ</h4>
+                                <textarea name="" id=""></textarea>
+                                <button style="background-color: rgb(68, 176, 113); color: white; border: 0;">ยืนยันผลสอบ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="director_2_4" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <h4>โครงงาน</h4>
+                                <input type="text" readonly>
+                                <h4>วันสอบที่เลือกไว้</h4>
+                                <input type="date" readonly>
+                                <h4>จัดทำโดย</h4>
+                                <input type="text" placeholder="นางสาวชัชชดาภา โค้วสุขสกุล" readonly> 
+                                <input type="text" placeholder="นายภูริณัฐ ยวนหลี" readonly>
+                                <h4>กำหนดผลการสอบ</h4>
+                                <select name="" id="">
+                                    <option value="">ผ่าน</option>
+                                    <option value="">ผ่านแบบแก้ไข</option>
+                                    <option value="">ไม่ผ่าน</option>
+                                </select>
+                                <h4>ข้อเสนอแนะจากกรรมการ</h4>
+                                <textarea name="" id=""></textarea>
+                                <button style="background-color: rgb(68, 176, 113); color: white; border: 0;">ยืนยันผลสอบ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="director_2_5" class="page">
+                        <div class="director">
+                            <div class="report_bt"><button onclick="showpage('subject_1')" class="">ย้อนกลับ</button></div>
+                            <div class="director_1">
+                                <h4>โครงงาน</h4>
+                                <input type="text" readonly>
+                                <h4>วันสอบที่เลือกไว้</h4>
+                                <input type="date" readonly>
+                                <h4>จัดทำโดย</h4>
+                                <input type="text" placeholder="นางสาวชัชชดาภา โค้วสุขสกุล" readonly> 
+                                <input type="text" placeholder="นายภูริณัฐ ยวนหลี" readonly>
+                                <h4>กำหนดผลการสอบ</h4>
+                                <select name="" id="">
+                                    <option value="">ผ่าน</option>
+                                    <option value="">ผ่านแบบแก้ไข</option>
+                                    <option value="">ไม่ผ่าน</option>
+                                </select>
+                                <h4>ข้อเสนอแนะจากกรรมการ</h4>
+                                <textarea name="" id=""></textarea>
+                                <button style="background-color: rgb(68, 176, 113); color: white; border: 0;">ยืนยันผลสอบ</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+        <script>
+            function showpage(pageid){
+                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+                document.getElementById(pageid).classList.add('active');
+            }
+        </script>
+</body>
+</html>
