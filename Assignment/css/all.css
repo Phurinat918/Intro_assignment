@@ -1444,4 +1444,7 @@ input{
     width: 10px;
     height: 10px;
 }
+.proposal_status_section textarea{
+    width: 90%;
+}
 }
