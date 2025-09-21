@@ -1122,7 +1122,9 @@ input{
 .info{
     margin: 3%;
 }
-
+.dachbord_all_d{
+    height: 11vh;
+}
     
 .navside_all{
     background-color: white;
@@ -1194,6 +1196,9 @@ input{
     font-size: 45px;
 }
 
+.head_all{
+    height: 14vh;
+}
 h4{
     font-size: 12px;
 }
@@ -1257,7 +1262,7 @@ input{
 .dachbord_all_d{
     background-color: white;
     width: 45%;
-    height: 15vh;
+    height: 10vh;
     box-shadow: 0 0 10px rgb(119, 119, 119);
     margin: 2%;
     text-align: center;
