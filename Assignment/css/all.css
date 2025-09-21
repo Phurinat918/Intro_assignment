@@ -1119,6 +1119,9 @@ input{
 .head_all h1{
     font-size: 50px;
 }
+.head_all{
+    height: 16vh;
+}
 .info{
     margin: 3%;
 }
@@ -1197,7 +1200,7 @@ input{
 }
 
 .head_all{
-    height: 14vh;
+    height: 12vh;
 }
 h4{
     font-size: 12px;
