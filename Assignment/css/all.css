@@ -603,8 +603,8 @@ input{
     margin-top: 1%;
 }
 .consultant_home_1_1_1 img{
-    margin-left: 30%;
-    width: 40%;
+    margin-left: 25%;
+    width: 50%;
     height: auto;
     border-radius: 50%;
     margin-top: 10%;
@@ -898,10 +898,20 @@ input{
     width: 100%;
     border: 1px solid rgb(197, 197, 197);
 }
+.per_sub{
+    width: 100%;
+}
+.per_sub select{
+    width: 100%;
+}
 
 /*----------------------------------------subject 2---------------------------------*/
 .subject_1{
     padding: 3%;
+}
+.subject_1 h3{
+    padding-left: 3%;
+    border-left: 5px solid orange;
 }
 .table{
     display: flex;
@@ -921,6 +931,9 @@ input{
     margin-bottom: 2%;
     height: 20px;
 }
+.table_1_1 h4{
+    margin-top: 2%;
+}
 .table_section{
     display: flex;
 }
@@ -938,6 +951,7 @@ input{
     background-color: rgb(57, 57, 233);
     color: white;
     border: 0;
+    margin-top: 1%;
 
 }
 /*----------------------------------------subject 2-sent--------------------------------*/
@@ -1200,6 +1214,32 @@ input{
     width: 74%;
     padding-left: 2%;
 }
+.table_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.table_1 {
+    width: 48%;
+    margin-right: 1%;
+}
+.table_section input{
+    width: 96%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.subject_2_all_d_1 button{
+    font-size: 10px;
+}
+.subject_2_all_under_bt{
+    text-align: end;
+    font-size: 8px;
+    padding-right: 0%;
+}
+.subject_2_all_d_2 input[type="radio"]{
+    box-shadow: 0 0 0;
+    width: 10px;
+    height: 10px;
+}
 }
 
 @media (max-width: 480px) {
@@ -1367,5 +1407,31 @@ input{
 .proposal_status_section_2_right{
     width: 75%;
     padding-left: 2%;
+}
+.table_section{
+    display: flex;
+    flex-direction: column;
+}
+.table_1{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.table_section input{
+    width: 96%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.subject_2_all_d_1 button{
+    font-size: 10px;
+}
+.subject_2_all_under_bt{
+    text-align: end;
+    font-size: 8px;
+    padding-right: 0%;
+}
+.subject_2_all_d_2 input[type="radio"]{
+    box-shadow: 0 0 0;
+    width: 10px;
+    height: 10px;
 }
 }
