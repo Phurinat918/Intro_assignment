@@ -181,19 +181,14 @@ header{
 
 .regis_bt{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.regis_bt button{
+.regis_bt a{
     width: 48%;
+    height: 50px;
 }
-.regis_btcf{
-    background-color: rgb(43, 206, 152);
-    color: white;
-}
-.regis_btcc{
-    background-color: rgb(250, 59, 59);
-    color: white;
-}
+
+
 
 
 

@@ -126,7 +126,6 @@ input{
 /*----------------------------------------profile---------------------------------*/
 .profile{
     border-radius: 10px;
-    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -153,7 +152,6 @@ input{
 }
 .profile_section input{
     width: 100%;
-    margin-right: 3%;
     height: 40px;
     margin-bottom: 3%;
     margin-top: 1%;
