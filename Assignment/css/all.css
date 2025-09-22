@@ -1386,6 +1386,9 @@ input{
 *{
     font-size: 100%;
 }
+nav{
+        z-index: 2000;
+}
 .head_all{
     height: 10vh;
 }
