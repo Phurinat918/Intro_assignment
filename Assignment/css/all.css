@@ -1192,7 +1192,7 @@ input{
     border-radius: 10px;
     width: 15%;
     box-shadow: 0 0 10px rgb(119, 119, 119);
-    top: 0;
+    top: 50;
 }
 
 .navside_all :hover{
@@ -1272,7 +1272,7 @@ h4{
     border-radius: 10px;
     width: 15%;
     box-shadow: 0 0 10px rgb(119, 119, 119);
-    top: 0;
+    top: 50;
     margin-bottom: 5%;
 }
 
