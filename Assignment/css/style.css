@@ -193,7 +193,20 @@ header{
 /*---------------------------Login list-------------------------------------------*/
 .select{
     display: flex;
-    justify-content: end;
+    align-items: end;
+    margin-bottom: 1%;
+}
+.select select{
+    margin-bottom: 0;
+    margin-right: 3%;
+    box-shadow: 0 0 5px gray;
+}
+
+.section_list{
+    padding: 3%;
+    box-shadow: 0 0 5px orange;
+    border-radius: 10px;
+    margin-bottom: 3%;
 }
 table{
     width: 100%;
@@ -206,6 +219,21 @@ td{
 .table_head{
     background-color: rgb(239, 168, 35);
     color: white;
+}
+.list_item{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.list_item_all {
+    margin: 1%;
+    background-color: orange;
+    color: white;
+    padding: 1%;
+    height: 13px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
 }
 
 
