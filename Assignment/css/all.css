@@ -986,10 +986,9 @@ input{
     margin: 1%;
 }
 .table_1_1{
-    height: 50px;
+    height: 20px;
     align-content: end;
     margin-bottom: 2%;
-    height: 20px;
 }
 .table_1_1 h4{
     margin-top: 2%;
@@ -1563,7 +1562,15 @@ input{
 }
 .table_1{
     width: 100%;
-    margin-bottom: 3%;
+
+}
+
+.table_1_2{
+    margin-bottom: 0;
+}
+
+.table_by{
+    display: flex;
 }
 .table_section input{
     width: 96%;
