@@ -225,15 +225,13 @@ td{
     justify-content: center;
     margin-top: 2%;
 }
-.list_item_all {
+.list_item button{
     margin: 1%;
     background-color: orange;
     color: white;
     padding: 1%;
-    height: 13px;
-    text-align: center;
-    align-content: center;
     border-radius: 5px;
+    width: 5%;
 }
 
 
@@ -263,7 +261,7 @@ header{
         font-size: 12px;
     }
 .login{
-    width: 80%;
+    width: 96%;
 }
 .nav_left{
     width: 60%;
@@ -302,6 +300,6 @@ header{
     margin-right: 2%;
 }
 .login{
-    width: 90%;
+    width: 98%;
 }
 }
