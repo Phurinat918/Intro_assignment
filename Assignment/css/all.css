@@ -659,11 +659,12 @@ input{
     height: 35px;
     margin-bottom: 2%;
     margin-top: 1%;
+    width: 100%;
 }
+
 .consultant_home_1_1_1 img{
-    margin-left: 25%;
-    width: 50%;
-    height: auto;
+    width: 60%;
+    background-color: rgb(206, 206, 206);
     border-radius: 50%;
     margin-top: 10%;
     margin-bottom: 5%;
