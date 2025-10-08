@@ -212,6 +212,7 @@ input{
     height: 40px;
     margin-bottom: 3%;
     margin-top: 1%;
+    width: 100%;
 }
 
 .profile_section_1{
@@ -729,8 +730,9 @@ input{
     margin-top: 1%;
 }
 .report_1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .report_1 img{
     width: 30%;
@@ -738,12 +740,24 @@ input{
 .report_1_img{
     box-shadow: 0 0 5px gray;
     padding: 3%;
-    margin: 2%;
+    margin-top: 2%;
     margin-bottom: 4%;
     border-radius: 5px;
+    width: 40%;
+}
+.report_1_img input{
+    width: 100%;
+}
+.report_1_1{
+    width: 42%;
+}
+.report_1_1 input{
+    width: 100%;
 }
 .report_1_2{
     text-align: end;
+    width: 42%;
+
 }
 .report_1_2 button{
     width: 80%;

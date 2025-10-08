@@ -99,6 +99,7 @@ header{
     margin-bottom: 1%;
     color: rgb(0, 0, 0);
 }
+
 .s_index2 {
     border-radius: 10px;
     padding: 2%;
@@ -224,6 +225,7 @@ td{
     display: flex;
     justify-content: center;
     margin-top: 2%;
+
 }
 .list_item button{
     margin: 1%;
@@ -232,6 +234,7 @@ td{
     padding: 1%;
     border-radius: 5px;
     width: 5%;
+    border: 0;
 }
 
 
