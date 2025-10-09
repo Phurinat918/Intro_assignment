@@ -848,7 +848,21 @@ input{
     width: 90%;
     font-size: 12px;
 }
-
+.select_week{
+    margin-bottom: 2%;
+}
+.select_week button{
+    border: 0;
+    width: 8%;
+    background-color: white;
+    box-shadow: 0 0 3px gray;
+    font-weight: bold;
+    padding: 1%;
+}
+.select_week :hover{
+    background-color: gray;
+    color: white;
+}
 .consultant_progress_1_left_bottom img{
     width: 100px;
     border-radius: 50%;
