@@ -858,6 +858,7 @@ input{
     box-shadow: 0 0 3px gray;
     font-weight: bold;
     padding: 1%;
+    color: black;
 }
 .select_week :hover{
     background-color: gray;
